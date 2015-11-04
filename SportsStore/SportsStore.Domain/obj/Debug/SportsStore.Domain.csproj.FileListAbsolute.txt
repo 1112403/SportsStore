@@ -20,3 +20,4 @@ F:\Web MVC\SportStore\SportsStore\SportsStore.Domain\bin\Debug\System.Web.WebPag
 F:\Web MVC\SportStore\SportsStore\SportsStore.Domain\bin\Debug\System.Web.WebPages.Razor.xml
 F:\Web MVC\SportStore\SportsStore\SportsStore.Domain\obj\Debug\SportsStore.Domain.dll
 F:\Web MVC\SportStore\SportsStore\SportsStore.Domain\obj\Debug\SportsStore.Domain.pdb
+F:\Web MVC\SportStore\SportsStore\SportsStore.Domain\obj\Debug\SportsStore.Domain.csprojResolveAssemblyReference.cache
