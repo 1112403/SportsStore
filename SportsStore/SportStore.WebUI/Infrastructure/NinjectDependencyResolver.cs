@@ -30,6 +30,7 @@ namespace SportStore.WebUI.Infrastructure
             //});
 
             kernel.Bind<IProductsRepository>().To<EFProductRepository>();
+            kernel.Bind<ICustomerRepository>().To<EFCustomerRepository>();
         }
         public object GetService(Type serviceType)
         {

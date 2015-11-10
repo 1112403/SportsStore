@@ -42,9 +42,15 @@ namespace SportStore.WebUI.Controllers
             }
         }
 
-        public ViewResult Create()
+        [HttpGet]
+        //public ViewResult Create()
+        //{
+        //    return View("Edit", new Product());
+        //}
+
+        public PartialViewResult Create()
         {
-            return View("Edit", new Product());
+            return PartialView(new Product());
         }
 
         [HttpPost]
