@@ -11,7 +11,7 @@ namespace SportsStore.Domain.Concrete
     {
         private EFDbContext context = new EFDbContext();
 
-        public IEnumerable<Customer> customer
+        public IEnumerable<Customer> Customers
         {
             get { return context.Customers; }
         }

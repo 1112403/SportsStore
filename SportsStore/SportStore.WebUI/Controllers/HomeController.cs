@@ -18,7 +18,7 @@ namespace SportStore.WebUI.Controllers
         [HttpGet]
         public PartialViewResult Login()
         {
-            return PartialView(repository.customer);
+            return PartialView(repository.Customers);
         }
 	}
 }

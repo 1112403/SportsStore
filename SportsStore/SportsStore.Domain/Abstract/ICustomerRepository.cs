@@ -7,6 +7,6 @@ namespace SportsStore.Domain.Abstract
 {
     public interface ICustomerRepository
     {
-        IEnumerable<Customer> customer { get; }
+        IEnumerable<Customer> Customers { get; }
     }
 }

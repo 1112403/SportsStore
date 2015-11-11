@@ -21,6 +21,11 @@ namespace SportStore.WebUI.Controllers
             return View(repository.Products);
         }
 
+        public PartialViewResult GetAllProductAjax()
+        {
+            return PartialView(repository.Products);
+        }
+
         [HttpGet]
         public ViewResult Edit(int ProductId)
         {
